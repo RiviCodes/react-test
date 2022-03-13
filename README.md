@@ -10,6 +10,7 @@ A modern browser. May fail to load correctly if used in unsupported/old web brow
 ### Built with 🛠️
 
 * HTML5
+* CSS
 * JavaScript
 * [React](https://reactjs.org/) (by Facebook)
 * [Visual Studio Code](https://code.visualstudio.com/) (by Microsoft)
