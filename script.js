@@ -2,10 +2,17 @@
 //import ReactDOM from "react-dom"
 
 const myPage = (
-    <div>
-        <img src="./react-logo.png" width="40px" />
+    <div className="main-section">
+        <header>
+            <img src="./react-logo.png" className="header-logo" />
+            <ul>
+                <li>About</li>
+                <li>Pricing</li>
+                <li>Contact</li>
+            </ul>
+        </header>
         <h1>Fun facts about React!</h1>
-        <ul>
+        <ul className="fun-facts">
             <li>Was first released in 2013</li>
             <li>Was originally created by Jordan Walke</li>
             <li>Has well over 100k stars in Github</li>
