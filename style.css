@@ -1,0 +1,44 @@
+/* Fonts */
+
+/* Fredoka */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(174, 220, 247);
+  font-family: 'Fredoka', sans-serif;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+  border-radius: 20px;
+  padding: 22px 24px 18px 6px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo {
+  width: 60px;
+}
+
+.main-section header > img + ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-section header > img + ul > li {
+  padding: 8px;
+  list-style: none;
+}
